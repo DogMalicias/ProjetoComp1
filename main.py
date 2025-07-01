@@ -29,7 +29,7 @@ df_clientes = carregar_dados()
 ctk.set_appearance_mode("dark")
 app = ctk.CTk()
 app.title("Sistema de Clientes")
-app.geometry("1300x500")  # Aumentei a largura para caber o botão Excluir
+app.geometry("1300x500")  
 
 frame_top = tk.Frame(app)
 frame_top.pack(fill="x", pady=10, padx=10)
